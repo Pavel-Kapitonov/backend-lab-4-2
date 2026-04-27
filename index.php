@@ -106,7 +106,7 @@ setcookie('values', '', 100000, '/');
                 <?php if (isset($errors['agreement'])) echo '<div class="error-msg">'.$errors['agreement'].'</div>'; ?>
             </div>
 
-            <input type="submit" value="Сохранить">
+            <input class="knopka" type="submit" value="Сохранить">
         </form>
     </div>
 </body>
